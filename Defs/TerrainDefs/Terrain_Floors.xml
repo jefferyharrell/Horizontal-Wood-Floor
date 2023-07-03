@@ -22,6 +22,8 @@
     <constructEffect>ConstructWood</constructEffect>
   </TerrainDef>
 
+  <!-- Expanded Woodworking -->
+
   <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
     <defName>BirchPlankFloorHorizontal</defName>
     <label>birch floor</label>
@@ -138,5 +140,26 @@
       <LumberBamboo>3</LumberBamboo>
     </costList>
   </TerrainDef>
+
+  <!-- Vanilla Furniture Expanded - Architect -->
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
+    <defName>WalnutPlankFloorHorizontal</defName>
+    <label>walnut floor</label>
+    <color>(79,60,45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
+    <defName>BirchPlankFloorHorizontal</defName>
+    <label>birch floor</label>
+    <color>(243,196,150)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
+    <defName>MahoganyPlankFloorHorizontal</defName>
+    <label>mahogany floor</label>
+    <color>(134,79,49)</color>
+  </TerrainDef>
+
 
 </Defs>
