@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <TerrainDef ParentName="FloorBase">
+  <TerrainDef Name="WoodPlankFloorHorizontal" ParentName="FloorBase">
     <defName>WoodPlankFloorHorizontal</defName>
     <label>wood floor</label>
     <renderPrecedence>250</renderPrecedence>
     <description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
     <texturePath>Terrain/Surfaces/WoodFloorHorizontal</texturePath>
-    <burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <burnedDef>BurnedWoodPlankFloorHorizontal</burnedDef>
     <color>(108,78,55)</color>
     <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
     <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
@@ -20,8 +20,123 @@
       <WoodLog>3</WoodLog>
     </costList>
     <constructEffect>ConstructWood</constructEffect>
-    <designationHotKey>Misc9</designationHotKey>
-    <uiOrder>2000</uiOrder>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>BirchPlankFloorHorizontal</defName>
+    <label>birch floor</label>
+    <color>(251,217,172)</color>
+    <costList>
+      <LumberBirch>3</LumberBirch>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>PalmPlankFloorHorizontal</defName>
+    <label>black palm floor</label>
+		<color>(42,40,41)</color>
+    <costList>
+      <LumberPalm>3</LumberPalm>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>CecropiaPlankFloorHorizontal</defName>
+    <label>cecropia floor</label>
+		<color>(123,47,24)</color>
+    <costList>
+      <LumberCecropia>3</LumberCecropia>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>CocoaPlankFloorHorizontal</defName>
+    <label>cocoawood floor</label>
+		<color>(86,42,34)</color>
+    <costList>
+      <LumberCocoa>3</LumberCocoa>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>CypressPlankFloorHorizontal</defName>
+    <label>cypress floor</label>
+		<color>(233,207,175)</color>
+    <costList>
+      <LumberCypress>3</LumberCypress>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>DragoPlankFloorHorizontal</defName>
+    <label>drago floor</label>
+		<color>(245,175,125)</color>
+    <costList>
+      <LumberDrago>3</LumberDrago>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>MaplePlankFloorHorizontal</defName>
+    <label>maple floor</label>
+		<color>(211,186,159)</color>
+    <costList>
+      <LumberMaple>3</LumberMaple>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>OakPlankFloorHorizontal</defName>
+    <label>oak floor</label>
+		<color>(181,137,88)</color>
+    <costList>
+      <LumberOak>3</LumberOak>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>PinePlankFloorHorizontal</defName>
+    <label>pine floor</label>
+		<color>(241,190,133)</color>
+    <costList>
+      <LumberPine>3</LumberPine>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>PoplarPlankFloorHorizontal</defName>
+    <label>poplar floor</label>
+		<color>(207,174,129)</color>
+    <costList>
+      <LumberPoplar>3</LumberPoplar>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>TeakPlankFloorHorizontal</defName>
+    <label>teak floor</label>
+		<color>(120,86,51)</color>
+    <costList>
+      <LumberTeak>3</LumberTeak>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>WillowPlankFloorHorizontal</defName>
+    <label>willow floor</label>
+		<color>(239,194,113)</color>
+    <costList>
+      <LumberWillow>3</LumberWillow>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
+    <defName>BambooPlankFloorHorizontal</defName>
+    <label>bamboo floor</label>
+		<color>(248,218,158)</color>
+    <costList>
+      <LumberBamboo>3</LumberBamboo>
+    </costList>
   </TerrainDef>
 
 </Defs>
