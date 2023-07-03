@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>BurnedWoodPlankFloorHorizontal</defName>
+    <label>burned wood floor</label>
+    <renderPrecedence>251</renderPrecedence>
+    <description>Burned-out wood plank flooring.</description>
+    <texturePath>Terrain/Surfaces/BurnedWoodFloorHorizontal</texturePath>
+    <edgeType>FadeRough</edgeType>
+  </TerrainDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+
+  <packageId>jefferyharrell.woodfloorhorizontal</packageId>
+  <name>Horizontal Wood Floor</name>
+  <modVersion>0.1.0</modVersion>
+  <author>Jeffery Harrell</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>It's the built-in wood floor, just turned 90 degrees clockwise.</description>
+  <loadAfter>
+    <li>ludeon.rimworld</li>
+  </loadAfter>
+
+</ModMetaData>
