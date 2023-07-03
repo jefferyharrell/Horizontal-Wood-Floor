@@ -22,13 +22,33 @@
     <constructEffect>ConstructWood</constructEffect>
   </TerrainDef>
 
+  <!-- Vanilla Furniture Expanded - Architect -->
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
+    <defName>VFEArch_WoodPlankFloorWalnutHorizontal</defName>
+    <label>walnut wood floor</label>
+    <color>(79,60,45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
+    <defName>VFEArch_WoodPlankFloorBirchHorizontal</defName>
+    <label>birch wood floor</label>
+    <color>(243,196,150)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
+    <defName>VFEArch_WoodPlankFloorMahoganyHorizontal</defName>
+    <label>mahogany wood floor</label>
+    <color>(134,79,49)</color>
+  </TerrainDef>
+
   <!-- Expanded Woodworking -->
 
   <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="Aquiles.ExpandWoodwork">
     <defName>BirchPlankFloorHorizontal</defName>
     <label>birch floor</label>
     <color>(251,217,172)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberBirch>3</LumberBirch>
     </costList>
   </TerrainDef>
@@ -37,7 +57,7 @@
     <defName>PalmPlankFloorHorizontal</defName>
     <label>black palm floor</label>
 		<color>(42,40,41)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberPalm>3</LumberPalm>
     </costList>
   </TerrainDef>
@@ -46,7 +66,7 @@
     <defName>CecropiaPlankFloorHorizontal</defName>
     <label>cecropia floor</label>
 		<color>(123,47,24)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberCecropia>3</LumberCecropia>
     </costList>
   </TerrainDef>
@@ -55,7 +75,7 @@
     <defName>CocoaPlankFloorHorizontal</defName>
     <label>cocoawood floor</label>
 		<color>(86,42,34)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberCocoa>3</LumberCocoa>
     </costList>
   </TerrainDef>
@@ -64,7 +84,7 @@
     <defName>CypressPlankFloorHorizontal</defName>
     <label>cypress floor</label>
 		<color>(233,207,175)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberCypress>3</LumberCypress>
     </costList>
   </TerrainDef>
@@ -73,7 +93,7 @@
     <defName>DragoPlankFloorHorizontal</defName>
     <label>drago floor</label>
 		<color>(245,175,125)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberDrago>3</LumberDrago>
     </costList>
   </TerrainDef>
@@ -82,7 +102,7 @@
     <defName>MaplePlankFloorHorizontal</defName>
     <label>maple floor</label>
 		<color>(211,186,159)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberMaple>3</LumberMaple>
     </costList>
   </TerrainDef>
@@ -91,7 +111,7 @@
     <defName>OakPlankFloorHorizontal</defName>
     <label>oak floor</label>
 		<color>(181,137,88)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberOak>3</LumberOak>
     </costList>
   </TerrainDef>
@@ -100,7 +120,7 @@
     <defName>PinePlankFloorHorizontal</defName>
     <label>pine floor</label>
 		<color>(241,190,133)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberPine>3</LumberPine>
     </costList>
   </TerrainDef>
@@ -109,7 +129,7 @@
     <defName>PoplarPlankFloorHorizontal</defName>
     <label>poplar floor</label>
 		<color>(207,174,129)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberPoplar>3</LumberPoplar>
     </costList>
   </TerrainDef>
@@ -118,7 +138,7 @@
     <defName>TeakPlankFloorHorizontal</defName>
     <label>teak floor</label>
 		<color>(120,86,51)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberTeak>3</LumberTeak>
     </costList>
   </TerrainDef>
@@ -127,7 +147,7 @@
     <defName>WillowPlankFloorHorizontal</defName>
     <label>willow floor</label>
 		<color>(239,194,113)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberWillow>3</LumberWillow>
     </costList>
   </TerrainDef>
@@ -136,30 +156,9 @@
     <defName>BambooPlankFloorHorizontal</defName>
     <label>bamboo floor</label>
 		<color>(248,218,158)</color>
-    <costList>
+    <costList Inherit="False">
       <LumberBamboo>3</LumberBamboo>
     </costList>
   </TerrainDef>
-
-  <!-- Vanilla Furniture Expanded - Architect -->
-
-  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
-    <defName>WalnutPlankFloorHorizontal</defName>
-    <label>walnut floor</label>
-    <color>(79,60,45)</color>
-  </TerrainDef>
-
-  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
-    <defName>BirchPlankFloorHorizontal</defName>
-    <label>birch floor</label>
-    <color>(243,196,150)</color>
-  </TerrainDef>
-
-  <TerrainDef ParentName="WoodPlankFloorHorizontal" MayRequire="VanillaExpanded.VFEArchitect">
-    <defName>MahoganyPlankFloorHorizontal</defName>
-    <label>mahogany floor</label>
-    <color>(134,79,49)</color>
-  </TerrainDef>
-
 
 </Defs>

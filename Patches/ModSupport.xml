@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+  <Operation Class="XmlExtensions.FindMod">
+    <mods>
+      <li>Expanded Woodworking</li>
+      <li>Vanilla Furniture Expanded - Architect</li>
+    </mods>
+    <logic>or</logic>
+    <caseTrue>
+      <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName = "WoodPlankFloorHorizontal"]</xpath>
+        <value>
+          <designatorDropdown>WoodPlankFloorsHorizontal</designatorDropdown>
+        </value>
+      </Operation>
+    </caseTrue>
+  </Operation>
+
+  <Operation Class="XmlExtensions.FindMod">
+    <mods>
+      <li>Expanded Woodworking</li>
+      <li>Vanilla Furniture Expanded - Architect</li>
+    </mods>
+    <logic>and</logic>
+    <caseTrue>
+
+      <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName = "VFEArch_WoodPlankFloorWalnutHorizontal"]/label</xpath>
+        <value>
+          <label>walnut laminate floor</label>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName = "VFEArch_WoodPlankFloorBirchHorizontal"]/label</xpath>
+        <value>
+          <label>birch laminate floor</label>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName = "VFEArch_WoodPlankFloorMahoganyHorizontal"]/label</xpath>
+        <value>
+          <label>mahogany laminate floor</label>
+        </value>
+      </Operation>
+
+    </caseTrue>
+  </Operation>
+
+</Patch>
